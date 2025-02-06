@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile Card Design</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/3294ae38ec.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <div class="profile-card">
+    <div class="profile-header">
+      <img src="profile-pics/pic-3.jpg" alt="Profile Picture" data-testid="profilePicture">
+      <h4 class="profile-name" data-testid="fullName">Habeeb Lasisi</h4>
+      <h5 class="job-title" data-testid="jobTitle">Front-End Developer</h5>
+      <div class="box-container">
+        <div class="box"></div>
+      </div>
+    </div>
+    <div class="profile-body">
+      <p class="bio" data-testid="shortBio">Aspiring front-end developer with a strong foundation in problem-solving and design, backed by an engineering background. Skilled in HTML, CSS, JavaScript, and modern frameworks like React, with a passion for creating
+        user-friendly interfaces. Transitioning into software engineering to combine analytical thinking and technical
+        skills. Actively seeking an internship to contribute to impactful projects and further develop expertise in
+        front-end development.
+        </p>
+      <div class="info flex-container">
+          <p class="col-1" data-testid="currentLocation"><i class="fas fa-map-marker-alt"></i>Lagos, Nigeria</p>
+          <p class="col-2" data-testid="emailAddress"><i class="fas fa-envelope"></i>lasisihabeeb.lh@gmail.com</p>
+          <p class="col-3" data-testid="currentTimeUTC"><i class="fas fa-clock"></i><span id="utc-time"></span></p>
+      </div>
+      <div class="social-links" data-testid="socialLinks">
+          <a href="https://github.com/larh6olard" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/habeeb-lasisi-52801896" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+          <a href="https://x.com/HabeebLasi91967?t=6tTzEqnLeqQGwGsG2pM1LQ&s=01" aria-label="X"><i class="fa-brands fa-square-x-twitter"></i></a>
+      </div>
+    </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
